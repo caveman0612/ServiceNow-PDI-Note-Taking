@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1312925_note_t_0.admin" name="x_1312925_note_t_0.admin">c75a457647400210e9ed6d1f316d4318</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 22:55:51</sys_created_on>
+        <sys_id>435a457647400210e9ed6d1f316d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c75a457647400210e9ed6d1f316d4318</sys_name>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_update_name>sys_embedded_help_role_435a457647400210e9ed6d1f316d431b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 22:55:51</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

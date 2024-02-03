@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description/>
+        <event_name>x_1312925_note_t_0.kyle event</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>kyle event</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-03 18:27:13</sys_created_on>
+        <sys_id>cf66154f47004210e9ed6d1f316d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1312925_note_t_0.kyle event</sys_name>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_update_name>sysevent_register_cf66154f47004210e9ed6d1f316d43c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-03 18:27:13</sys_updated_on>
+        <table/>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="note taking">0b5a457647400210e9ed6d1f316d4312</application>
+        <file_path/>
+        <instance_id>c9258a32db6af19039639027c59619a3</instance_id>
+        <instance_name>dev218539</instance_name>
+        <name>sysevent_register_cf66154f47004210e9ed6d1f316d43c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description/><event_name>x_1312925_note_t_0.kyle event</event_name><fired_by/><queue/><suffix>kyle event</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-03 18:27:13</sys_created_on><sys_id>cf66154f47004210e9ed6d1f316d43c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1312925_note_t_0.kyle event</sys_name><sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package><sys_policy/><sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope><sys_update_name>sysevent_register_cf66154f47004210e9ed6d1f316d43c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-03 18:27:13</sys_updated_on><table/></sysevent_register></record_update>]]></payload>
+        <payload_hash>-215603986</payload_hash>
+        <record_name>x_1312925_note_t_0.kyle event</record_name>
+        <reverted_from/>
+        <source>c75a457647400210e9ed6d1f316d4314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-03 18:27:14</sys_created_on>
+        <sys_id>3576154f47004210e9ed6d1f316d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d703983f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-03 18:27:14</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>7976154f3f0042104f3638021df64c91</update_guid>
+        <update_guid_history>7976154f3f0042104f3638021df64c91:-215603986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-03 18:30:28</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>1619690e1c7f491381ef9ff9adbd4831</sys_id>
+        <sys_metadata>cf66154f47004210e9ed6d1f316d43c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1312925_note_t_0.kyle event</sys_name>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_scope_delete display_value="">1127d11cc4f840eb8c605b52b8adcdb1</sys_scope_delete>
+        <sys_update_name>sysevent_register_cf66154f47004210e9ed6d1f316d43c8</sys_update_name>
+        <sys_update_version display_value="sysevent_register_cf66154f47004210e9ed6d1f316d43c8">3576154f47004210e9ed6d1f316d4392</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-03 18:30:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
