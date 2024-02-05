@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_screen">
+    <sys_sg_parameter_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <available_offline>true</available_offline>
+        <cancel_label>Cancel</cancel_label>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <header_only_on_first_page>false</header_only_on_first_page>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon/>
+        <name>New input form</name>
+        <next_label>Next</next_label>
+        <pagination_type>all</pagination_type>
+        <prev_label>Previous</prev_label>
+        <reset_after_submit>true</reset_after_submit>
+        <resume>false</resume>
+        <roles_override/>
+        <submit_label>Submit</submit_label>
+        <sys_class_name>sys_sg_parameter_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-03 23:34:20</sys_created_on>
+        <sys_id>6ccc5a0b47444210e9ed6d1f316d4377</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New input form</sys_name>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_update_name>sys_sg_parameter_screen_6ccc5a0b47444210e9ed6d1f316d4377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-05 02:43:18</sys_updated_on>
+        <type display_value="">string</type>
+        <view_config display_value="Static Content">8b90ca79777911109033bfeacf5a99f6</view_config>
+    </sys_sg_parameter_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ccc5a0b47444210e9ed6d1f316d4377"/>
+</record_update>

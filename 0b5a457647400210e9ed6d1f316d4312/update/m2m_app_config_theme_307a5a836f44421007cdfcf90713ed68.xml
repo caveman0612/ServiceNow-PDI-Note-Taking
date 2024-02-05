@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">7c7a5a83bb444210b3b6d989579feb67</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-03 23:24:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>307a5a836f44421007cdfcf90713ed68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_update_name>m2m_app_config_theme_307a5a836f44421007cdfcf90713ed68</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-03 23:24:16</sys_updated_on>
+        <theme display_value="Light Theme">b47a5a83de444210d178b64832174a68</theme>
+        <ux_app_configuration display_value="note taking Config">647a1a8347444210e9ed6d1f316d4389</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

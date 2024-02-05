@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record Page(task)">747a5a83ac4442101ecd2a04dd4c7c5c</macroponent>
+        <name>record_header_1/headerImageItem</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    if (api.context.props.table == 'sc_req_item') {
+        return {
+            headerImage: api.data.look_up_record_2.result.picture.displayValue,
+            fieldLabel: "Test value" //Here only to support the required structure of the object
+        }
+    } else {
+        return "";
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-03 23:24:17</sys_created_on>
+        <sys_id>707a5a83b9444210a646f852a2db3a31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>record_header_1/headerImageItem</sys_name>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_update_name>sys_ux_client_script_707a5a83b9444210a646f852a2db3a31</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-03 23:24:17</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</declarative_action_assignment>
+        <predicate display_value="Popular articles predicate">7c7a5a8341444210caf59445e2a62f25</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-03 23:24:17</sys_created_on>
+        <sys_id>f07a5a834e444210a2a64f2aa340fa10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_f07a5a834e444210a2a64f2aa340fa10</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-03 23:24:17</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

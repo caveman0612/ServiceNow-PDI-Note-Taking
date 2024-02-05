@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="note taking Config">647a1a8347444210e9ed6d1f316d4389</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Attachments</name>
+        <optional_parameters/>
+        <order>300</order>
+        <parent_macroponent display_value="Record Page(task)">747a5a83ac4442101ecd2a04dd4c7c5c</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_task_attachment</route_type>
+        <screen_type display_value="Attachments">fc7a5a83b1444210a7fb32cbd2d3aa4e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-03 23:24:18</sys_created_on>
+        <sys_id>3c7a5a8356444210c3d9f77e67b2dc5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachments</sys_name>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_update_name>sys_ux_app_route_3c7a5a8356444210c3d9f77e67b2dc5b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-03 23:24:18</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c7a5a8356444210c3d9f77e67b2dc5b"/>
+</record_update>

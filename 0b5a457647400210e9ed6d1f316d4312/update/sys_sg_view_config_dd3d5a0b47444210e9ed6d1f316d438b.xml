@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description/>
+        <name>New card</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-03 23:36:18</sys_created_on>
+        <sys_id>dd3d5a0b47444210e9ed6d1f316d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New card</sys_name>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_update_name>sys_sg_view_config_dd3d5a0b47444210e9ed6d1f316d438b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-03 23:36:18</sys_updated_on>
+        <table/>
+        <template display_value="Template 09">077970bed537c110f87745a87b9fad3f</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd3d5a0b47444210e9ed6d1f316d438b"/>
+</record_update>

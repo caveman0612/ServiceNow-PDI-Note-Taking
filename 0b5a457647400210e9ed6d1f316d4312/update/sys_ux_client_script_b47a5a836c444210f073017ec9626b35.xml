@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">b07a5a83c8444210b8429d0daf62685f</macroponent>
+        <name>Fetch my tasks</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "Approval overdue: {0}",
+  "comment" : ""
+}, {
+  "code" : null,
+  "message" : "Approval Request: {0}",
+  "comment" : ""
+}, {
+  "code" : null,
+  "message" : "Approval due: {0}",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const input = api.data.evam_mytasks.compositeDataViews;
+    for (var i = 0; i < input.items.length; i++) {
+        var model = input.items[i].propValues;
+        var currDate = new Date();
+        var dueDate = new Date(model.model.due_date);
+        if (model.model.due_date != "") {
+            model.highlightedHeaderLabel = await helpers.translate("Approval due: {0}", dueDate);
+            if (currDate.getTime() > dueDate.getTime()) {
+                model.highlightedHeaderBkgColor = "critical";
+                model.highlightedHeaderLabel =await helpers.translate("Approval overdue: {0}", dueDate);
+            }
+        }
+        model.title = await helpers.translate("Approval Request: {0}", model.title);
+        if (model.model.table == "sc_req_item") {
+            if (model.model.recurring_frequency != "") {
+                model.subtitle = model.subtitle + " + " + model.model.recurring_price + " " + model.model.recurring_frequency;
+            }
+        }
+        if (model.model.sys_created_on != "") {
+            var createdDate = new Date(model.model.sys_created_on);
+            model.detailValueOne = [createdDate.getFullYear(), createdDate.getMonth() + 1, createdDate.getDate()].join('-');
+        }
+    }
+    api.setState('mytaskData', input);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-03 23:24:17</sys_created_on>
+        <sys_id>b47a5a836c444210f073017ec9626b35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fetch my tasks</sys_name>
+        <sys_package display_value="note taking" source="x_1312925_note_t_0">0b5a457647400210e9ed6d1f316d4312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="note taking">0b5a457647400210e9ed6d1f316d4312</sys_scope>
+        <sys_update_name>sys_ux_client_script_b47a5a836c444210f073017ec9626b35</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-03 23:24:17</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
